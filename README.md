@@ -11,7 +11,7 @@
 
 | คุณสมบัติ | รายละเอียด |
 | :--- | :--- |
-| **เวอร์ชันทางการล่าสุด** | `v1.3.0` |
+| **เวอร์ชันทางการล่าสุด** | `v1.0.0` |
 | **สถานะการอัปเดต** | มีผลบังคับใช้ (Active Distribution) |
 | **ไฟล์ควบคุมระบบอัปเดต** | [`version.json`](./version.json) |
 | **คลังซอร์สโค้ดหลัก** | [megapoomz0001-collab/VeriYTDownloads](https://github.com/megapoomz0001-collab/VeriYTDownloads) |
@@ -25,9 +25,9 @@
 
 ### ขั้นตอนที่ 1: อัปโหลดตัวติดตั้งขึ้น GitHub Releases
 1. ไปที่เมนู **Releases** ด้านขวามือ หรือคลิก [Releases / New](https://github.com/megapoomz0001-collab/VeriYTDownloadsUPDATE/releases/new)
-2. กำหนดแท็กเวอร์ชันใหม่ เช่น `v1.3.1`
-3. ตั้งชื่อ Release เช่น `VeriYT Studio Pro v1.3.1`
-4. อัปโหลดไฟล์ติดตั้ง (เช่น `VeriYT_Studio_Setup_v1.3.1.exe`)
+2. กำหนดแท็กเวอร์ชันใหม่ เช่น `v1.0.1`
+3. ตั้งชื่อ Release เช่น `VeriYT Studio Pro v1.0.1`
+4. อัปโหลดไฟล์ติดตั้ง (เช่น `VeriYT_Studio_Setup_v1.0.1.exe`)
 5. กดปุ่ม **"Publish release"**
 6. คลิกขวาที่ไฟล์ตัวติดตั้งที่อัปโหลด แล้วเลือก **"Copy link address"** เพื่อนำ URL ลิงก์ดาวน์โหลดมาใช้งาน
 
@@ -38,16 +38,16 @@
 
 ```json
 {
-  "version": "1.3.1",
-  "title": "VeriYT Studio Pro v1.3.1 (Official Update)",
+  "version": "1.0.1",
+  "title": "VeriYT Studio Pro v1.0.1 (Official Update)",
   "changelog": "• อัปเดตเอนจิน yt-dlp และ FFmpeg เวอร์ชันล่าสุด เพิ่มความเร็วในการดาวน์โหลด\n• เพิ่มประสิทธิภาพการแปลงไฟล์เสียง MP3 บิตเรต 320 kbps\n• ปรับปรุงความเสถียรในการดึงรายการเพลย์ลิสต์ขนาดใหญ่\n• แก้ไขข้อผิดพลาดทั่วไปและปรับปรุงหน้าต่างโปรแกรม",
-  "downloadUrl": "https://github.com/megapoomz0001-collab/VeriYTDownloadsUPDATE/releases/download/v1.3.1/VeriYT_Studio_Setup_v1.3.1.exe",
+  "downloadUrl": "https://github.com/megapoomz0001-collab/VeriYTDownloadsUPDATE/releases/download/v1.0.1/VeriYT_Studio_Setup_v1.0.1.exe",
   "isMandatory": true
 }
 ```
 
 ### คำอธิบายฟิลด์ใน `version.json`:
-- **`version`**: เลขเวอร์ชันใหม่ (เช่น `1.3.1`) หากตัวเลขนี้มากกว่าเวอร์ชันในเครื่องผู้ใช้ โปรแกรมจะแจ้งเตือนอัปเดตทันที
+- **`version`**: เลขเวอร์ชันใหม่ (เช่น `1.0.1`) หากตัวเลขนี้มากกว่าเวอร์ชันในเครื่องผู้ใช้ โปรแกรมจะแจ้งเตือนอัปเดตทันที
 - **`title`**: ชื่อหัวข้อการอัปเดตที่จะแสดงบนหน้าต่างของโปรแกรม
 - **`changelog`**: รายการฟีเจอร์ใหม่และสิ่งที่แก้ไข (ใช้ `\n` เพื่อขึ้นบรรทัดใหม่)
 - **`downloadUrl`**: ลิงก์ตรงสำหรับดาวน์โหลดไฟล์ติดตั้ง `.exe`
