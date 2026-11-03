@@ -1,0 +1,7 @@
+{
+  "version": "1.3.0",
+  "title": "VeriYT Studio Pro v1.3.0 (Official Release)",
+  "changelog": "• ระบบดาวน์โหลดวิดีโอ 4K / 8K และเพลย์ลิสต์ YouTube ความเร็วสูง Turbo Engine\n• ถอดไฟล์เสียงเพลง MP3 คุณภาพระดับสตูดิโอมาสเตอร์ 320 kbps\n• เครื่องมือพรีวิวคลิปจริงและตัดต่อคลิป (Video Trimmer Studio) พร้อมตรวจจับ Chapters\n• ระบบจัดการสิทธิ์การใช้งานผ่าน Google Sheets (Hardware-Locked Activation) ทดลองใช้ฟรี 30 วัน\n• ระบบตรวจเช็คและแจ้งเตือนอัปเดตอัตโนมัติผ่าน GitHub VeriYTDownloadsUPDATE\n• ปรับแต่งหน้าต่างโปรแกรมแบบ Modern Native Desktop พร้อมไอคอนธีม FrankyTeam",
+  "downloadUrl": "https://github.com/megapoomz0001-collab/VeriYTDownloadsUPDATE/releases/download/v1.3.0/VeriYT_Studio_Setup_v1.3.0.exe",
+  "isMandatory": false
+}
